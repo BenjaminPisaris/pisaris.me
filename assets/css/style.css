@@ -11,7 +11,7 @@
     -moz-osx-font-smoothing: grayscale;
     transition-duration: 0.3s;
     transition-property: transform;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 #badge {
     display: none;
@@ -24,5 +24,8 @@
 .outline{
     border: 1px solid #e0e0e0;
     padding: 10px 20px;
+}
+hr {
+    position: sticky;
 }
 

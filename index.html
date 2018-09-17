@@ -16,11 +16,11 @@
 </head>
 
 <body>
-    <div class="col hide-on-small-only m3 l2" style="position: fixed">
+    <div class="col hide-on-small-only m3 l2" style="position: fixed; z-index: 5;">
         <ul class="section table-of-contents">
           <li><a href="#bio">Bio</a></li>
           <li><a href="#skills">Skills</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#port">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -51,11 +51,11 @@
     <div class="section">
       <hr>
       <div class="row">
-        <h2 class="center scrollspy" id="skills">Technologies I'm Familiar With</h2>
+        <h2 class="center">Technologies I'm Familiar With</h2>
         <p class="flow-text center grey-text text-lighten-2">(fun fact: this website uses at least 5 of these)</p>
       </div>
       <!-- Cards -->
-      <div class="row">
+      <div class="row scrollspy" id="skills">
         <div class="col s3 hvr-grow" id=>
           <div class="card white">
             <div class="card-image">
@@ -128,14 +128,13 @@
     <hr>
     <div class="section">
       <div class="row">
-        <h1 class="center scrollspy" id="portfolio">Showcase</h1>
+        <h1 class="center" >Showcase</h1>
       </div>
-      <div class="row">
+      <div class="row scrollspy" id="port">
         <div class="col l3">
           <div class="card white shadow">
             <div class="card-image">
               <img src="assets/images/boolinco.jpg">
-
             </div>
             <div class="card-content">
               <span class="card-title black-text">Boolin.co</span>
